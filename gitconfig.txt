@@ -1,0 +1,10 @@
+st = status
+nb = checkout -b
+br = branch
+ci = commit
+co = checkout
+ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+lod = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]\\ %Cgreen%cr" --decorate
+ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+lm = "!git ll -1"
+lol = log --graph --decorate --pretty=oneline --abbrev-commit
